@@ -1,0 +1,71 @@
+#logo{
+    height: 50px;
+    margin: 50px;
+    padding: 10px;
+}
+.h1{
+    color: #1f3151;
+    margin-bottom:70px;
+}
+input{
+    margin-bottom:30px;
+    margin-top: 0;
+}
+#info{
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 100%;
+    background-image: linear-gradient(to right top, #1f3151, #1e385a, #1c4063, #18486c, #115074, #0c577b, #065f81, #006687, #006f8c, #007791, #008095, #008898);
+      display: flex;
+      align-items: center;
+
+}
+input[type="checkbox"]{
+    display: inline;
+}
+.btn{
+    background-color:#1e385a;
+}
+@media screen and (min-width:1400px){
+    #info {
+    width: 800px;
+}
+}
+@media screen and (max-width:1200px){
+ #info {
+    width: 600px;
+}
+form{
+    margin-left: -100px;
+}
+}
+@media screen and (max-width:992px){
+    #info {
+    width: 500px;
+}
+form{
+    margin-left: -100px;
+}
+}
+@media screen and (max-width:895px){
+    #info {
+    width: 500px;
+}
+form{
+    margin-right: 0;
+}
+.form-check-label{
+    font-size: 13px;
+}
+}
+@media screen and (max-width:768px){
+    #info {
+    display: none;
+}
+}
+@media screen and (max-width:576px){
+    #info {
+    display: none;
+}
+}
